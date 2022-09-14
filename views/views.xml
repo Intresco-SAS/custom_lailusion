@@ -1,0 +1,9 @@
+<odoo>
+  <data>
+    <template id="address_header_inherit" inherit_id="l10n_co_tax_extension.report_invoice_document_inherit">
+      <xpath expr="//span[@t-field='line.uom_id']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+    </template>
+  </data>
+</odoo>

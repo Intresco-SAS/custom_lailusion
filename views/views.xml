@@ -99,13 +99,4 @@
       </table>
     </xpath>
   </data>
-  
-  <data inherit_id="l10n_co_e-invoice.report_invoice_document_inherit">
-    <xpath expr="//div[1]/span" position="replace">
-      <span>
-        Autorización DIAN No. <span t-field="o.resolution_number"/> Fecha del <span t-field="o.resolution_date"/><t t-if="o.resolution_date_to">  Hasta: <span t-field="o.resolution_date_to"/> |</t>Rango del No.: <span t-if="o.journal_id.sequence_id.prefix" t-field="o.journal_id.sequence_id.prefix"/><span t-field="o.resolution_number_from"/> al <span t-if="o.journal_id.sequence_id.prefix" t-field="o.journal_id.sequence_id.prefix"/><span t-field="o.resolution_number_to"/>
-        </span>
-    </xpath>
-
-  </data>
 </odoo>

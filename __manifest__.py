@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "custom_modulo",
+    'name': "Módulo-La Ilusion",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+        Este modulo modifica el Reporte de Factura Electronica segun las especificaciones del cliente
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Nelson Velez",
+    'website': "http://www.intresco.co",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -20,7 +20,7 @@
     'version': '12.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['l10n_co_tax_extension'],
+    'depends': ['l10n_co_tax_extension','l10n_co_e-invoice'],
 
     # always loaded
     'data': [
